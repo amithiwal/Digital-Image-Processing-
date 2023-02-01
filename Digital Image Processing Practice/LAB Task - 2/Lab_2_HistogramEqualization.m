@@ -26,7 +26,7 @@ I = [52	55	61	59	79	61	76	61
  % Dimensions of Input Image
  [row,col,depth] = size(I);
 
-% Convert Color Image to Gay Scale
+% Convert Color Image to Gray Scale
 if depth ==3
     I = rgb2gray(I);
 end
