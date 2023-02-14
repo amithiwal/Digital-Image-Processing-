@@ -12,6 +12,7 @@
 clc;
 clear all;
 close all;
+
 % Input Image
 I = [52	55	61	59	79	61	76	61
      62	59	55	104	94	85	59	71
